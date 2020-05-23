@@ -112,9 +112,11 @@ body {
     border-radius: 10px;
     z-index: 1;
 }
+
 #search-mobile {
     display: none;
 }
+
 #hide-mobile {
     display: none;
     z-index: 900;
@@ -142,16 +144,19 @@ and (max-device-width : 480px){
     .weather-container {
         top: 0.5rem;
         right: 0.5rem;
-        font-size: 1rem;
+        font-size: 1.25rem;
         padding: 0.5rem;
         border-radius: 8px;
     }
     #clock {
-        margin-top: 1em;
-        font-size: 2rem;
+        width: 90%;
+        margin-top: 1.5em;
+        font-size: 2.5rem;
     }
     #date {
-        font-size: 2rem;
+        width: 90%;
+        font-size: 1.25rem;
+        text-align: left;
     }
     .container > .bookmark-container {
         flex-direction: column;
@@ -178,23 +183,27 @@ and (max-device-width : 480px){
     height: 11em;
     margin: 0em .5em;
 }
+
 .bookmark-inner-container {
     overflow-y: scroll;
     height: 80%;
     vertical-align: top;
 }
+
 .bookmark-title {
     font-size: 1.3rem;
     font-weight: 500;
     color: #fff;
     margin: 0em 0em .35em 0em;
 }
+
 .bookmark {
     text-decoration: none;
     color: #8c8c8b;
     display:block;
     margin: .5em 0em;
 }
+
 .bookmark:hover {
     color: #fff;
 }
