@@ -162,6 +162,9 @@ and (max-device-width : 480px){
         margin: 1em 0em;
         height: 15em;
     }
+    .bookmark-container > .bookmark-set > .bookmark-inner-container {
+        height: 100%;
+    }
 }
 
 .bookmark-set{
