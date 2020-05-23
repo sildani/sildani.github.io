@@ -88,6 +88,7 @@ body {
     border-radius: 10px;
     z-index: 1;
 }
+
 .inline {
     display: inline-block;
 }
@@ -138,8 +139,19 @@ and (max-device-width : 480px){
     .container {
         height: auto;
     }
+    .weather-container {
+        top: 0.5rem;
+        right: 0.5rem;
+        font-size: 1rem;
+        padding: 0.5rem;
+        border-radius: 8px;
+    }
     #clock {
         margin-top: 1em;
+        font-size: 2rem;
+    }
+    #date {
+        font-size: 2rem;
     }
     .container > .bookmark-container {
         flex-direction: column;
@@ -148,6 +160,7 @@ and (max-device-width : 480px){
     .bookmark-container > .bookmark-set {
         width: auto;
         margin: 1em 0em;
+        height: 15em;
     }
 }
 
